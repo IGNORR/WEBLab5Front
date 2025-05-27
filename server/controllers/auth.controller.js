@@ -3,7 +3,7 @@ import admin from 'firebase-admin';
 import { db } from '../config/dbConfig.js';
 
 class AuthController {
-    API = "https://onlineitcourses-762p.onrender.com/";
+    API = "https://weblab5server.onrender.com";
     register = async (req, res) => {
         const { email, password } = req.body;
 

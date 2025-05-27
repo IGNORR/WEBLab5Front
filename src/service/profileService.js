@@ -2,7 +2,7 @@ import { getAuth } from "firebase/auth";
 
 class ProfileService {
 
-    API = "https://onlineitcourses-762p.onrender.com";
+    API = "https://weblab5server.onrender.com";
     constructor() {
         this.auth = getAuth();
     }
