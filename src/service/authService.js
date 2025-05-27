@@ -1,6 +1,6 @@
 
 class AuthService {
-    API = "https://weblab5server.onrender.com";
+    API = "https://onlineitcourses-762p.onrender.com";
     register = async (data) => {
         try {
             const response = await fetch(`${this.API}/auth/register`, {
